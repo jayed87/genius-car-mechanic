@@ -2,10 +2,11 @@ import React from 'react';
 import { useParams } from 'react-router';
 
 const Booking = () => {
-    const { serviceId } = useParams();
+    const { id } = useParams();
+    // const { id } = props;
     return (
         <div>
-            <h2>This is Booking page : {serviceId}</h2>
+            <h2>This is Booking page : {id}</h2>
         </div>
     );
 };

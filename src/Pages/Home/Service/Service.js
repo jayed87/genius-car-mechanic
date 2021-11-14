@@ -5,6 +5,7 @@ import './Service.css';
 const Service = ({ service }) => {
     // const {service} = props;
     const { id, name, price, description, img } = service;
+    console.log(service)
     return (
         <div className="service">
             <img src={img} alt="" />
